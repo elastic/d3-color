@@ -2,6 +2,8 @@
 
 <a href="https://d3js.org"><img src="https://github.com/d3/d3/raw/main/docs/public/logo.svg" width="256" height="256"></a>
 
+This fork is only intended to be used in Kibana!
+
 Even though your browser understands a lot about colors, it doesn’t offer much help in manipulating colors through JavaScript. The d3-color module therefore provides representations for various color spaces, allowing specification, conversion and manipulation. (Also see [d3-interpolate](https://github.com/d3/d3-interpolate) for color interpolation.)
 
 ## Resources
