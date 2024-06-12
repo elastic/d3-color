@@ -1,5 +1,5 @@
 {
-  "name": "@elastic/d3-color",
+  "name": "@elastic/kibana-d3-color",
   "version": "2.0.1",
   "description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
   "keywords": [
@@ -25,7 +25,7 @@
   "module": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elastic/d3-color.git"
+    "url": "git+https://github.com/elastic/d3-color.git"
   },
   "files": [
     "dist/**/*.js",

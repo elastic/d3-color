@@ -1,13 +1,11 @@
 import {terser} from "rollup-plugin-terser";
 import * as meta from "./package.json";
 
-const [pkgNamespace, pkgName] = meta.name.split("/");
-
 const config = {
   input: "src/index.js",
   external: Object.keys(meta.dependencies || {}).filter(key => /^d3-/.test(key)),
   output: {
-    file: `dist/${pkgName}.js`,
+    file: `dist/d3-color.js`,
     name: "d3",
     format: "umd",
     indent: false,
@@ -24,7 +22,7 @@ export default [
     ...config,
     output: {
       ...config.output,
-      file: `dist/${pkgName}.min.js`
+      file: 'dist/d3-color.min.js'
     },
     plugins: [
       ...config.plugins,
