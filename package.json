@@ -1,5 +1,5 @@
 {
-  "name": "@elastic/d3-color",
+  "name": "@elastic/kibana-d3-color",
   "version": "1.4.2",
   "description": "Color spaces! RGB, HSL, Cubehelix, Lab and HCL (Lch).",
   "keywords": [
